@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'leon test node from jenkins node on aws!' });
+  res.render('index', { title: 'leon test node from jenkins master!' });
 });
 
 module.exports = router;
